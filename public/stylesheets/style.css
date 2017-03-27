@@ -1,0 +1,50 @@
+html,
+body {
+    height: 100%;
+}
+html{
+    background-image: url('/images/steamships.jpg');
+    background-repeat: no-repeat;
+}
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  max-width: 768px;
+  margin: 5% auto!important;
+  border-radius: 5px;
+}
+header{
+  height: 200px;
+  background-image: url('/images/muskokaBanner.png');
+  text-align: center;
+}
+a {
+  color: #00B7FF;
+}
+.block{
+  display: inline-block;
+  width: 100%;
+      margin: 5% 0;
+}
+a.nav-link.active {
+    border: 2px solid #efefef;
+    background: #efefef;
+  }
+/*profile*/
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.profile img.image-lg{
+    z-index: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.image-profile
+{
+    margin: -90px 10px 0px 50px;
+        position: relative;
+    width: 20%;
+}
